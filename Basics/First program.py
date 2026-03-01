@@ -56,3 +56,48 @@ price = 19.99
 print(type(name)) # Output: <class 'str'>
 print(type(age)) # Output: <class 'int'>
 print(type(price)) # Output: <class 'float'>
+
+age = 21
+old = False
+a = None
+print(type(old)) # Output: <class 'bool'>
+print(type(a)) # Output: <class 'NoneType'>
+
+
+#keywords in Python:
+# Python has a set of reserved keywords that cannot be used as identifiers (variable names, function names, etc.) because they have special meanings in the language. Here is a list of Python keywords:
+# 1. False
+# 2. None
+# 3. True
+# 4. and
+# 5. as
+# 6. assert
+# 7. break
+# 8. class
+# 9. continue
+# 10. def
+# 11. del
+# 12. elif
+# 13. else
+# 14. except
+# 15. finally
+# 16. for
+# 17. from
+# 18. global
+# 19. if
+# 20. import
+# 21. in
+# 22. is
+# 23. lambda
+# 24. nonlocal
+# 25. not
+# 26. or
+# 27. pass
+# 28. raise
+# 29. return
+# 30. try
+# 31. while
+# 32. with
+# 33. yield
+
+
