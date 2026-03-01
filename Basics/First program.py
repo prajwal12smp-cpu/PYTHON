@@ -12,18 +12,8 @@ print("Prajwal is my name", "My age is 21 years old")
 print(23)
 print(35)
 
-# You can perform basic arithmetic operations in Python.
-
-print(23 + 35) # Addition
-print(23 - 35) # Subtraction
-print(23 * 35) # Multiplication
-print(23 / 35) # Division (results in a float)
-print(23 % 35) # Modulus (remainder of the division)
-print(23 ** 35) # Exponentiation (23 raised to the power of 35)
-print(23 // 35) # Floor division (results in the largest integer less than or equal to the division result)
-print(23 + 35 * 2) # Order of operations (multiplication before addition)
-
-# You can also use variables to store values and perform operations on them.
+ 
+ # You can also use variables to store values and perform operations on them.
 name = "Prajwal Shivashimpar" # String variable to store a name
 age = 21 # Integer variable to store age
 price = 19.99 # Float variable to store price
@@ -101,3 +91,90 @@ print(type(a)) # Output: <class 'NoneType'>
 # 33. yield
 
 
+#print sum of two numbers
+a = 10
+b = 20
+sum = a + b
+print(sum)
+
+#difference of two numbers
+diff = a - b
+print(diff)
+
+#product of two numbers
+product = a * b
+print(product)
+
+
+#comments in python:
+# This is a single-line comment in Python.
+
+"""
+This is a multi-line comment in Python.
+It can span multiple lines and is useful for providing detailed explanations
+about the code's functionality or purpose.
+"""
+
+#Types of operators in python:
+# 1. Arithmetic Operators: +, -, *, /, %, **, //
+# 2. Relational / Comparison Operators: ==, !=, >, <, >=, <=
+# 3. Logical Operators: and, or, not
+# 4. Assignment Operators: =, +=, -=, *=, /=, %=, **=, //=
+
+#Example of using arithmetic operators
+x = 5
+y = 2
+print(x + y)  # Output: 19
+print(x - y)  # Output: 11
+print(x * y)  # Output: 60
+print(x / y)  # Output: 3.75
+print(x % y)  # Output: 3
+print(x ** y) # Output: 50625
+print(x // y) # Output: 3
+
+#Example of using relational / comparison operators
+a = 50
+b = 30
+print(a == b)  # Output: False
+print(a != b)  # Output: True
+print(a > b)   # Output: True
+print(a < b)   # Output: False
+print(a >= b)  # Output: True
+print(a <= b)  # Output: False
+
+#Example of using assignment operators
+num = 10
+num = num + 10 # Equivalent to num += 10
+print(num)  # Output: 20
+
+num = 20
+num = num - 10 # Equivalent to num -= 10
+print(num)  # Output: 10
+
+num = 10
+num = num * 10 # Equivalent to num *= 10
+print(num)  # Output: 100
+
+num = 100
+num = num / 10 # Equivalent to num /= 10
+print(num)  # Output: 10.0
+
+num = 10
+num = num % 3 # Equivalent to num %= 3
+print(num)  # Output: 1
+
+num = 2
+num = num ** 3 # Equivalent to num **= 3
+print(num)  # Output: 8
+
+num = 10
+num = num // 3 # Equivalent to num //= 3
+print(num)  # Output: 3
+
+
+#Example of using logical operators
+x = 5
+y = 10
+print(x > 3 and y < 15)  # Output: True
+print(x > 3 or y < 5)    # Output: True
+print(not(x > 3 and y < 15))  # Output: False
