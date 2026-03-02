@@ -70,3 +70,44 @@ print(sliced_str) #output: ar
 #print(str[-5:-2]) #output: par
 sliced_str = str[-5:-2] #slicing the string from index -5 to -3
 print(sliced_str) #output: par
+
+
+#string functions
+#string functions are built-in functions that can be used to perform various operations on strings
+
+str = "prajwal Shivashimpar"
+
+#the upper() function is used to convert a string to uppercase
+print(str.upper()) #output: PRAJWAL SHIVASHIMPAR
+print(str.capitalize()) #output: Prajwal shivashimpar
+
+#the lower() function is used to convert a string to lowercase
+print(str.lower()) #output: prajwal shivashimpar
+
+#the title() function is used to convert the first character of each word to uppercase and the rest to lowercase
+print(str.title()) #output: Prajwal Shivashimpar
+
+#the strip() function is used to remove leading and trailing whitespace from a string
+str_with_spaces = "   Prajwal Shivashimpar   "
+
+#the original string with spaces
+print(str_with_spaces.strip()) #output: Prajwal Shivashimpar
+
+#the split() function is used to split a string into a list of substrings based on a specified delimiter
+print(str.split()) #output: ['prajwal', 'Shivashimpar']
+
+#the endwith() function is used to check if a string ends with a specified suffix
+print(str.endswith("par")) #output: True
+
+#the startswith() function is used to check if a string starts with a specified prefix
+print(str.startswith("prajwal")) #output: True
+
+#the find() function is used to find the index of the first occurrence of a specified substring in a string
+print(str.find("Shiva")) #output: 8
+
+#the count() function is used to count the number of occurrences of a specified substring in a string
+print(str.count("r")) #output: 2
+
+#the replace() function is used to replace a specified substring with another substring in a string
+print(str.replace("a", "A")) #output: prAjwAl ShivAshimpar
+
