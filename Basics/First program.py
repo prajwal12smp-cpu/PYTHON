@@ -124,13 +124,13 @@ about the code's functionality or purpose.
 #Example of using arithmetic operators
 x = 5
 y = 2
-print(x + y)  # Output: 19
-print(x - y)  # Output: 11
-print(x * y)  # Output: 60
-print(x / y)  # Output: 3.75
-print(x % y)  # Output: 3
-print(x ** y) # Output: 50625
-print(x // y) # Output: 3
+print(x + y)  # Output: 7
+print(x - y)  # Output: 3
+print(x * y)  # Output: 10
+print(x / y)  # Output: 2.5
+print(x % y)  # Output: 1
+print(x ** y) # Output: 25
+print(x // y) # Output: 2
 
 #Example of using relational / comparison operators
 a = 50
